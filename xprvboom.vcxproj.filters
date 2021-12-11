@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{a9695745-c439-4acc-81b1-5c36f8b434d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{6cd4550f-57b9-4e67-93ea-c50e7e160389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{cba38fdc-d3f0-4d79-912e-2a3ca2db764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{f22c3326-6a1a-41d6-9185-5153a28031c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="authgg">
+      <UniqueIdentifier>{fff8f2fa-cd98-42df-9602-5fbdcc196934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="reverse">
+      <UniqueIdentifier>{e3a83751-4d0f-44b5-bf06-8314308a3e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{5d03cc67-2d69-4633-a6b2-94b81546b7a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spoof">
+      <UniqueIdentifier>{5aaf69bc-cfd9-4df4-9b15-c56e5a6b3539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spoof\btbd">
+      <UniqueIdentifier>{dd72a8b8-20eb-4014-a813-e0cea5311eff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\api.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\drvutils.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utilit.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="define\stdafx.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\utils.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\defines.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>reverse</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.h">
+      <Filter>reverse</Filter>
+    </ClInclude>
+    <ClInclude Include="antidebug.h">
+      <Filter>reverse</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="api\shellcode.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="bats.h">
+      <Filter>spoof</Filter>
+    </ClInclude>
+    <ClInclude Include="btbd_um.h">
+      <Filter>spoof\btbd</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_drv_priv.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\injector.h">
+      <Filter>main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\authgg.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\crypto.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\hwid.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\lw_http.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\md5.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\md5wrapper.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+    <ClCompile Include="authgg\print.cpp">
+      <Filter>authgg</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
